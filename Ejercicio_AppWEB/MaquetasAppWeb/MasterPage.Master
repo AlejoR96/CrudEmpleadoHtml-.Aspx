@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Ejercicio_AppWEB.MaquetasAppWeb.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <!---Enlaces a Estilos y fuentes-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>App Empleados</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="Css/Estilos.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">S
+    </asp:ContentPlaceHolder>
+</head>
+<body class="EstiloBody">
+    <form id="form1" runat="server">
+        <div>
+            <!-- Inicio Menu, Inicio, Datos,Nosotros-->
+            <header class="EstiloHeader">
+                <nav class="MenuNav">
+                    <ul class="MenuUL">
+                        <li class="MenuLi"><a class="MenuLink" href="./Default.aspx">INICIO </a></li>
+                        <li class="MenuLi"><a class="MenuLink" href="./Datos.aspx">DATOS </a></li>
+                        <li class="MenuLi"><a class="MenuLink" href="./Formulario.aspx">FORMULARIO </a></li>
+                        <li class="MenuLi"><a class="MenuLink" href="./Nosotros.aspx">NOSOTROS </a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Fin Menu -->
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!--Inicio Footer, Nombre quien desarrollor la aplicacion Web --->
+            <footer class="EstiloFooter">
+                <h3 class="TextFooter">Programador: Alejandro Rivera </h3>
+                <div class="ContenedorGit">
+                    <div><a href="https://github.com/AlejoR96">
+                        <img class="LogoGit" src="Photos_Resources/LogoGit.png" alt=""></a></div>
+
+                    <div>
+                        <h3 class="UserGitHub">AlejoR96</h3>
+                    </div>
+                </div>
+            </footer>
+            <!--Fin Footer-->
+        </div>
+    </form>
+</body>
+</html>

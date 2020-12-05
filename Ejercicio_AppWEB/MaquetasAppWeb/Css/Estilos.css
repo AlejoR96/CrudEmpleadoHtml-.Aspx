@@ -1,0 +1,252 @@
+﻿.EstiloBody {
+    width: 100%;
+    background-color: #AEB6BF;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.EstiloHeader {
+    width: 90%;
+    background-color: #F7DC6F;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+/* Estilos de Menu */
+
+.MenuNav {
+    background-color: #db864d;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.MenuUL {
+    display: flex;
+    justify-content: center;
+}
+
+.MenuLi {
+    list-style: none;
+}
+
+.MenuLink {
+    background-color: aliceblue;
+    color: brown;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+    .MenuLink:hover {
+        background-color: yellow;
+    }
+
+.TextH1 {
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+}
+
+.EstiloMain {
+    width: 90%;
+    background-color: #db864d;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+}
+
+.ContenedorPict {
+    background-color: rgb(255, 251, 251);
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.PictureProgramador {
+    height: 200px;
+}
+
+.ContenedorText {
+    background-color: rgb(255, 251, 251);
+    margin: 10px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.EstiloFooter {
+    width: 90%;
+    background-color: #db864d;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 10, 10);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LogoGit {
+    height: 45px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.TextFooter {
+    font-size: medium;
+}
+
+.ContenedorGit {
+    display: flex;
+}
+
+/* Estilos de menus*/
+
+.ContenedorDatos {
+    width: 90%;
+    background-color: rgb(255, 251, 251);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 10, 10);
+    font-size: medium;
+    font-weight: 300;
+}
+
+
+/* Estilos para las fotos de los desarrolladores*/
+
+.PhotoDesarrollador {
+    height: 120px;
+    border-radius: 120px;
+}
+
+/* Estilos Para resaltar fuentes Nombre y correo */
+
+.TextoResaltado {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.TextoNormal {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    font-weight: 300;
+}
+
+/* Estilos de las cards o tarjetas desarrolladores*/
+
+.CardsEquipo {
+    background-color: rgb(255, 251, 251);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.ContenedorCards {
+    background-color: #db864d;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* cards arreglados  */
+
+/*-----------------------------------------------*/
+
+/* Btn de Menu de BD  */
+
+.ContenedorBtnBD{
+
+  display: flex;
+  align-items: center;
+  
+}
+
+.BtnMenu:hover {
+    background-color: yellow;
+}
+
+.BtnMenu {
+    background-color: aliceblue;
+    color: brown;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*-----------------------------------------------*/
+
+/*Estilos de datagriv*/
+.FormatoGriv{
+    width:100%;
+
+}
+
+.ContenedorGriv{
+    width: 100%;
+}
+
+/*-----------------------------------------------*/
+
+/*Estilos de Contenedor TbEmpleados*/
+
+
+.ContenedorTodoform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContenedorDatoForm {
+    width: 50%;
+    display: flex;
+    margin: 5px;
+}
+
+.ContenedorLabel {
+    width: 30%;
+    text-align: right;
+}
+
+.ContenedorTxtbox {
+    width: 40%;
+    margin-left: 10px;
+
+}
+
+.ContenedorError {
+    width: 30%;
+    text-align: left;
+    margin-left: 10px;
+}
